@@ -1,0 +1,67 @@
+DOM  移动  appendchild（）
+		objParent.insertBefore（obj，obj2）
+
+ready 
+ 事件绑定。
+addevent
+currentStyle 
+attribute
+JQ默认只取第0个
+
+委托    
+
+ready
+
+
+敲focusImg函数
+将昨天的seajs引入到html 中。
+
+
+
+new出来的都是对象
+包括 var bool=new Boolean（false）；
+一个布尔值为假的对象；
+ 一个new出来的都会弹true；
+当new出来的值是null；弹true；
+var result=false；布尔值
+弹false；
+
+
+
+
+addClass  源码
+
+array  删除和插入顺序，pop  push shift
+
+
+
+
+面向对象是为了重用。
+把散着的打成一个包，一个类。
+
+面向对象 多态  继承 封装
+
+
+封装，隐藏内部细节
+
+
+new 后面跟的都是一个构造函数。
+new 出来的就是oo
+
+访问一个不存在的属性，答案是undefined。
+alert（ a.bulala）
+
+calc(100%/3);
+
+window.onload=function(){
+
+
+
+ show=function(){
+	alert(this);
+ }
+ show()     没人调用，，但是会有bug，弹出来的是window。 严格模式会报undefined。
+
+}
+
+new Person(name,age);  function Person(){} 本身的this是window或者undefined ，new之后会指定this为oo。
