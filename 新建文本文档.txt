@@ -1,0 +1,27 @@
+current Computed  查获取非行间样式
+pop 具体写法内容
+str arr 用法内容具体使用
+
+查 in的用法
+
+
+continue  终止此次循环，继续下一个循环
+break	终止for循环
+return	终止程序
+
+
+str=str.charAt(0):查看字符串中此位置的字符
+
+str=str.charCodeAt(0):查看字符串中此位置的字符的编码
+
+
+
+JSON.parse(string);  将json模式的字符串转换成json
+
+
+
+== 无法判断类型，但是并不会隐私类型转换。
+
+
+
+splice
