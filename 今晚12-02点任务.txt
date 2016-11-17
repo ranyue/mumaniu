@@ -67,9 +67,26 @@ window.onload=function(){
 new Person(name,age);  function Person(){} 本身的this是window或者undefined ，new之后会指定this为oo。
 
 
-2.数据库开启，端口设置为2480。
-1.npm start   开启一个端口，连接数据库。设置对应获取数据的路由，并相应相关的数据。监听端口为3000。
-2.数据库开启，端口设置为2480。
+0.数据库开启，端口设置为2480。
+1.npm start   开启一个端口，连接oridb数据库。设置对应获取数据的路由，并获取相关的数据。监听端口为3000。
+2.gulp server  开启前端页面，访问 3000的端口获取对应的数据，并存往 localstorage 。渲染页面。
+
+
+
+
+
+
+
+重新设置  1、npm start 设置开启  3000的端口
+	2、数据存往 local:3000/data/。。。。
+	3，页面在  local :3000/api/
+	
+	
+页面展示	确保打开页面就有数据，首先应获取数据 页面开始加载的时候，判断localstorage 是否有对应的数据，没有就发ajax 请求。
+
+数据保存    保存，打开一个新的界面。将内容渲染到一个 新的页面。把内容pipe 进去。
+	
+	
 
 
 
