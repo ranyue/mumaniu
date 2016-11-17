@@ -1,55 +1,55 @@
-DOM  ÒÆ¶¯  appendchild£¨£©
-		objParent.insertBefore£¨obj£¬obj2£©
+DOM  ç§»åŠ¨  appendchildï¼ˆï¼‰
+		objParent.insertBeforeï¼ˆobjï¼Œobj2ï¼‰
 
 ready 
- ÊÂ¼ş°ó¶¨¡£
+ äº‹ä»¶ç»‘å®šã€‚
 addevent
 currentStyle 
 attribute
-JQÄ¬ÈÏÖ»È¡µÚ0¸ö
+JQé»˜è®¤åªå–ç¬¬0ä¸ª
 
-Î¯ÍĞ    
+å§”æ‰˜    
 
 ready
 
 
-ÇÃfocusImgº¯Êı
-½«×òÌìµÄseajsÒıÈëµ½html ÖĞ¡£
+æ•²focusImgå‡½æ•°
+å°†æ˜¨å¤©çš„seajså¼•å…¥åˆ°html ä¸­ã€‚
 
 
 
-new³öÀ´µÄ¶¼ÊÇ¶ÔÏó
-°üÀ¨ var bool=new Boolean£¨false£©£»
-Ò»¸ö²¼¶ûÖµÎª¼ÙµÄ¶ÔÏó£»
- Ò»¸önew³öÀ´µÄ¶¼»áµ¯true£»
-µ±new³öÀ´µÄÖµÊÇnull£»µ¯true£»
-var result=false£»²¼¶ûÖµ
-µ¯false£»
-
-
-
-
-addClass  Ô´Âë
-
-array  É¾³ıºÍ²åÈëË³Ğò£¬pop  push shift
+newå‡ºæ¥çš„éƒ½æ˜¯å¯¹è±¡
+åŒ…æ‹¬ var bool=new Booleanï¼ˆfalseï¼‰ï¼›
+ä¸€ä¸ªå¸ƒå°”å€¼ä¸ºå‡çš„å¯¹è±¡ï¼›
+ ä¸€ä¸ªnewå‡ºæ¥çš„éƒ½ä¼šå¼¹trueï¼›
+å½“newå‡ºæ¥çš„å€¼æ˜¯nullï¼›å¼¹trueï¼›
+var result=falseï¼›å¸ƒå°”å€¼
+å¼¹falseï¼›
 
 
 
 
-ÃæÏò¶ÔÏóÊÇÎªÁËÖØÓÃ¡£
-°ÑÉ¢×ÅµÄ´ò³ÉÒ»¸ö°ü£¬Ò»¸öÀà¡£
+addClass  æºç 
 
-ÃæÏò¶ÔÏó ¶àÌ¬  ¼Ì³Ğ ·â×°
-
-
-·â×°£¬Òş²ØÄÚ²¿Ï¸½Ú
+array  åˆ é™¤å’Œæ’å…¥é¡ºåºï¼Œpop  push shift
 
 
-new ºóÃæ¸úµÄ¶¼ÊÇÒ»¸ö¹¹Ôìº¯Êı¡£
-new ³öÀ´µÄ¾ÍÊÇoo
 
-·ÃÎÊÒ»¸ö²»´æÔÚµÄÊôĞÔ£¬´ğ°¸ÊÇundefined¡£
-alert£¨ a.bulala£©
+
+é¢å‘å¯¹è±¡æ˜¯ä¸ºäº†é‡ç”¨ã€‚
+æŠŠæ•£ç€çš„æ‰“æˆä¸€ä¸ªåŒ…ï¼Œä¸€ä¸ªç±»ã€‚
+
+é¢å‘å¯¹è±¡ å¤šæ€  ç»§æ‰¿ å°è£…
+
+
+å°è£…ï¼Œéšè—å†…éƒ¨ç»†èŠ‚
+
+
+new åé¢è·Ÿçš„éƒ½æ˜¯ä¸€ä¸ªæ„é€ å‡½æ•°ã€‚
+new å‡ºæ¥çš„å°±æ˜¯oo
+
+è®¿é—®ä¸€ä¸ªä¸å­˜åœ¨çš„å±æ€§ï¼Œç­”æ¡ˆæ˜¯undefinedã€‚
+alertï¼ˆ a.bulalaï¼‰
 
 calc(100%/3);
 
@@ -60,8 +60,35 @@ window.onload=function(){
  show=function(){
 	alert(this);
  }
- show()     Ã»ÈËµ÷ÓÃ£¬£¬µ«ÊÇ»áÓĞbug£¬µ¯³öÀ´µÄÊÇwindow¡£ ÑÏ¸ñÄ£Ê½»á±¨undefined¡£
+ show()     æ²¡äººè°ƒç”¨ï¼Œï¼Œä½†æ˜¯ä¼šæœ‰bugï¼Œå¼¹å‡ºæ¥çš„æ˜¯windowã€‚ ä¸¥æ ¼æ¨¡å¼ä¼šæŠ¥undefinedã€‚
 
 }
 
-new Person(name,age);  function Person(){} ±¾ÉíµÄthisÊÇwindow»òÕßundefined £¬newÖ®ºó»áÖ¸¶¨thisÎªoo¡£
+new Person(name,age);  function Person(){} æœ¬èº«çš„thisæ˜¯windowæˆ–è€…undefined ï¼Œnewä¹‹åä¼šæŒ‡å®šthisä¸ºooã€‚
+
+
+2.æ•°æ®åº“å¼€å¯ï¼Œç«¯å£è®¾ç½®ä¸º2480ã€‚
+1.npm start   å¼€å¯ä¸€ä¸ªç«¯å£ï¼Œè¿æ¥æ•°æ®åº“ã€‚è®¾ç½®å¯¹åº”è·å–æ•°æ®çš„è·¯ç”±ï¼Œå¹¶ç›¸åº”ç›¸å…³çš„æ•°æ®ã€‚ç›‘å¬ç«¯å£ä¸º3000ã€‚
+2.æ•°æ®åº“å¼€å¯ï¼Œç«¯å£è®¾ç½®ä¸º2480ã€‚
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
